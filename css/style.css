@@ -1,18 +1,73 @@
+
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 body{
-    width: 97%;
-    margin: 0 auto;
-    top: 0;
+   background-color: whitesmoke;
+   
 }
 header{
-    height: 200px;
+    height: 130px;
     background-color: #f72210;
+    padding: 10px 10px;
+    color: white;
 }
-.login{
-    background-color: aqua;
+.navbar li{ 
+    list-style-type: none;
+    padding-left: 10px;
+    font-weight: bold;
     
+}
+.navbar{
+   
+    background-color: white;
+}
+.navbar-nav{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row; 
+    padding-right: 20px;
+    padding-top: 5px;
+}
+.section1{
+    margin: 0 auto;
+    padding-top: 15px;
+}
+.rule{
+    height: 2px gray;
+}
+.person-profile{
+    display: flex;
+    flex-direction: row;
+    height: 70px;
+}
+.images{
+    width: 50px;
+    height: 50px;
+    padding-right: 10px;
+}
+.person-profile2{
+    display: flex;
+    flex-direction: row;
+    height: 70px;
+}
+.image2{
+    width: 50px;
+    height: 50px;
+    padding-left: 10px;   
+}
+.last-aside{
+    padding-left: 10px;
+    
+}
+.more{
+    display: flex;
+    flex-direction: row;
+}
+.image-more{
+    padding-right: 5px;
+    height: 100px;
 }
