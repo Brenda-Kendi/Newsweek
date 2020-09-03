@@ -8,6 +8,7 @@
 body{
    background-color: whitesmoke;
    
+   
 }
 header{
     height: 130px;
@@ -15,59 +16,98 @@ header{
     padding: 10px 10px;
     color: white;
 }
-.navbar li{ 
+.subscribe-button {
+    background-color: #ffe400;
+    color: black;
+    border-radius: 20px;
+    align-items: center;
+  }
+  
+  .navbar-button {
+    margin-top: 26px;
+    text-align: right;
+  }
+
+@media (max-width: 992px) {
+    .navbar-nav {
+      margin-top: 0;
+    
+    }
+  
+    .subscribe-button {
+      padding: 4px;
+      font-size: 12px;
+    }
+  
+    .logo img {
+      margin-top: 7px;
+      align-self: center;
+    }
+  }
+  .navbar-nav li{ 
     list-style-type: none;
     padding-left: 10px;
-    font-weight: bold;
-    
+    font-weight: bold;  
 }
-.navbar{
-   
+#navbarContent{
     background-color: white;
+    height: 40px;
+    margin-top: -6px;
+    margin-bottom: -5px;
+    margin-left: -15px;
+    margin-right: -15px;
+   
+   
 }
-.navbar-nav{
-    list-style-type: none;
-    display: flex;
-    flex-direction: row; 
-    padding-right: 20px;
-    padding-top: 5px;
+.nav-item1 li:hover{
+    color: red;
 }
-.section1{
-    margin: 0 auto;
-    padding-top: 15px;
-}
-.rule{
-    height: 2px gray;
-}
-.person-profile{
-    display: flex;
-    flex-direction: row;
-    height: 70px;
-}
-.images{
+.Search {
+    border: none;
     width: 50px;
-    height: 50px;
-    padding-right: 10px;
-}
-.person-profile2{
-    display: flex;
-    flex-direction: row;
-    height: 70px;
-}
-.image2{
-    width: 50px;
-    height: 50px;
-    padding-left: 10px;   
-}
-.last-aside{
-    padding-left: 10px;
+    background: #faf9fa;
+    margin-top: 5px;
     
-}
-.more{
-    display: flex;
-    flex-direction: row;
-}
-.image-more{
+  }
+  
+  .fa-search {
+    position: absolute;
+    margin-top: 9px;
+    padding-left: 20px;
+  }
+.images{
+    width: 70px;
+    height: 70px;
     padding-right: 5px;
-    height: 100px;
+}
+.vs{
+    width: 25px;
+    background-color: black;
+    color: white;
+    border-radius:100%;
+    left: 45%;
+    position: absolute;
+    text-align: center;
+    margin-top: -15px;
+}
+.hrule{
+    margin: 0;
+    padding: 1px;
+}
+@media ( max-width: 480px) {
+    body{
+        display: block;
+    }
+    .featured-stories{
+        width: 480px;
+    }
+    .my-turn{
+        display: block;
+    }
+}
+.card{
+    border: none;
+}
+.card .card-body a{
+    color: black;
 }

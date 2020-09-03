@@ -11,30 +11,33 @@
 
 <body>
     <div class="container-fluid">
-    <header>
-        <p><img src="./image/cloudy.PNG"><strong> 26&deg; Mombasa,KE></strong></p>
-        <div class="row">
-        
-            <div class="col-3">
+     <header>
+       <div class="navbar-expand-lg">
+           <div class="d-xs-none d-sm-none d-xl-block">
+        <p class="d-xs-block d-sm-block d-md-block cloudy"><img src="./image/cloudy.PNG"><strong> 26&deg; Mombasa,KE></strong></p>
+           </div>
+        <div class="row d-flex">
+           
+            <div class="col-3 d-xs-none d-sm-none d-xl-block">
             <date>Thur,Aug 27,2020</date>
             </div>
-            <div class="col-6">
+            <div class="col-6 d-xs-block d-sm-block d-md-block logo">
             <img src="./image/newsweeklogo.PNG">
             </div>
-            <div class="col-1">
-           <p>LOGIN</p>
-            </div>
-            <div class="col-2">
-            <p >SUBSCRIPTION OFFERS ></p>
-            </div>
-        
-        </div>
-    </header>
-   
-        
-        <ul class="navbar display-flex flex-direction-row mb-1 ">
             
-            <li class="nav-item mr-3 ml-2">U.S.</li>
+            <div class="col-3 col-xs-10  p-2 navbar-button ">
+          <button type="button" style="color:white;" class="btn d-none d-md-inline font-weight-bold d-lg-inline d-xl-inline" data-toggle="button" aria-pressed="false">LOGIN</button>
+                <button type="button" class="btn subscribe-button font-weight-bold" data-toggle="button" aria-pressed="false">SUBSCRIPTION <span class=" d-none d-ld-inline d-md-inline d-xl-inline"> OFFERS &gt;</span></button>
+            </div>
+           
+        </div>
+        </div>
+     </header>
+
+            <nav class="navbar navbar-expand-lg  d-lg-none d-md-none d-xl-block ">
+     <div class="collapse navbar-collapse" id="navbarContent">
+        <ul class="navbar-nav navbar-expand-lg row d-flex nav-item1 ">
+            <li class="nav-item mr-3 ml-5">U.S.</li>
             <li class="nav-item mr-3 border-left">World</li>
             <li class="nav-item mr-3 border-left">Business</li>
             <li class="nav-item mr-3 border-left">Tech & Science</li>
@@ -45,11 +48,13 @@
             <li class="nav-item mr-3 border-left">The Debate</li>
             <li class="nav-item mr-3 border-left">Vantage</li>
             <li class="nav-item mr-3 border-left">Weather</li>
-            <li><input type="text" placeholder="Search.." name="search" class="imputSearch mr-4" ><i class="fa fa-search" aria-hidden="true"></i></li>
+            <li><input type="text" placeholder="Search.." name="search" class="Search" ><i class="fa fa-search" aria-hidden="true"></i></li>
         </ul>
+        </div>
+        </nav>
         
-        <nav class="navbar-nav navbar-expand-lg navbar-light bg-white mb-1">
-            <ul class="navbar-nav ">
+        <nav class="navbar-nav navbar-expand-lg navbar-light bg-white mb-1 d-md-none d-sm-none d-lg-none d-xl-block">
+            <ul class="navbar-nav navbar-expand-lg">
                 <li class="nav-item"><a class="nav-link font-weight-bold text-dark" href="#">TRENDING</a></li>
                 <li class="nav-item"><a class="nav-link font-weight-bold" href="#">DONALD TRUMP</a></li>
                 <li class="nav-item"><a class="nav-link font-weight-bold" href="#">JOE BIDEN</a></li>
@@ -57,256 +62,634 @@
                 <li class="nav-item"><a class="nav-link font-weight-bold" href="#">CORONAVIRUS</a></li>
                 <li class="nav-item"><a class="nav-link font-weight-bold " href="#">2020 ELECTIONS</a></li>
             </ul>
-    </nav>
-  
-<div class="section1 row row-cols-3 bg-white" >
-    <div class="col-3">
+        </nav>
+    <main class="d-flex align-items-center">
+        <div class="container-fluid bg-white">
+            <div class="row">
+                <div class="col-md-3 featured-left">
+
+                    <p class="text-muted font-weight-bold">FEATURED STORIES</p>
+
+                    <div class=" featured-stories ">
+                        <img style="width: 300px;" src="https://d.newsweek.com/en/full/1629910/house-intelligence-adam-schiff-russia.webp?w=397&h=265&q=90&f=0790d35ace7e2ff90a324dec5de1b591">
+                        <h3>Adam Schiff Says Trump Views Racial Unrest, Russian Interference as Useful</h3>
+                        <p>House Intelligence Committee Chairman Adam Schiff said President Donald Trump is "willfully fanning the flames" of racial unrest and violence because his campaign believes it helps his re-election chances.</p>
+                    </div>
+                  
+                
+                    <div class="featured-stories ">
+                        <img style="width: 300px;" src="https://d.newsweek.com/en/full/1629905/breonna-taylor.webp?w=397&h=265&q=90&f=76c467011e8e80847124cb96b3f11af9">
+                        <h3>Adam Schiff Says Trump Views Racial Unrest, Russian Interference as Useful</h3>
+                        <p>House Intelligence Committee Chairman Adam Schiff said President Donald Trump is "willfully fanning the flames" of racial unrest and violence because his campaign believes it helps his re-election chances.</p>
+                    </div>
+
+                    <div class="featured-stories ">
+                        <img style="width: 300px;"  src="https://d.newsweek.com/en/full/1629910/house-intelligence-adam-schiff-russia.webp?w=397&h=265&q=90&f=0790d35ace7e2ff90a324dec5de1b591">
+                        <h3>Adam Schiff Says Trump Views Racial Unrest, Russian Interference as Useful</h3>
+                        <p>House Intelligence Committee Chairman Adam Schiff said President Donald Trump is "willfully fanning the flames" of racial unrest and violence because his campaign believes it helps his re-election chances.</p>
+                    </div>
+
+                    <div class="featured-stories ">
+                        <img style="width: 300px;" src="https://d.newsweek.com/en/full/1629910/house-intelligence-adam-schiff-russia.webp?w=397&h=265&q=90&f=0790d35ace7e2ff90a324dec5de1b591">
+                        <h3>Adam Schiff Says Trump Views Racial Unrest, Russian Interference as Useful</h3>
+                        <p>House Intelligence Committee Chairman Adam Schiff said President Donald Trump is "willfully fanning the flames" of racial unrest and violence because his campaign believes it helps his re-election chances.</p>
+                    </div>
+
+                    <div class="featured-stories ">
+                        <img style="width: 300px;" src="https://d.newsweek.com/en/full/1629910/house-intelligence-adam-schiff-russia.webp?w=397&h=265&q=90&f=0790d35ace7e2ff90a324dec5de1b591">
+                        <h3>Adam Schiff Says Trump Views Racial Unrest, Russian Interference as Useful</h3>
+                        <p>House Intelligence Committee Chairman Adam Schiff said President Donald Trump is "willfully fanning the flames" of racial unrest and violence because his campaign believes it helps his re-election chances.</p>
+                    </div>
+                
+                
+                </div>
+                <!--TOP STORY-->
+
+                <div class="col-md-6 featured-stories-center">
+                    <p class="text-muted font-weight-bold">TOP STORY</p>
+                        <div class="featured-stories">
+                            <img style=" " src="https://d.newsweek.com/en/full/1629926/portland-protests.webp?w=591&h=364&f=fb2609924e2f5f4e378ecc7af68484c7">
+                            <h3>Biden Condemns Violence in Portland While Trump Blames 'Radical Left' Dems</h3>
+                            <p>Saturday turned deadly as a group of Donald Trump supporters clashed in the Portland streets with Black Lives Matter demonstrators.</p>
+                        </div>
+
+                        <p>MY TURN</p>
+
+                    <div class="row">
+                        <div class="my-turn col-md-4">
+                            <img style="width:180px;" src="https://d.newsweek.com/en/full/1627697/child-psychologist-therapy-family-kids-parent.webp?w=397&h=397&f=3a3830421357835a688e99046ca9670b">
+                            <figcaption>'The Top 5 Questions I Get Asked As A Child Psychologist'</figcaption>
+                        </div>
+
+                        <div class="my-turn col-md-4">
+                            <img style="width:180px;" src="https://d.newsweek.com/en/full/1629191/homecoming-marriage-love.webp?w=397&h=397&f=e9b597d24c5723e4907c244fd49464ec">
+                            <figcaption>'The Top 5 Questions I Get Asked As A Child Psychologist'</figcaption>
+                        </div>
+
+                        <div class="my-turn col-md-4">
+                            <img style="width:180px;" src="https://d.newsweek.com/en/full/1628165/coronavirus-palau-hotels-covid-19.webp?w=397&h=397&f=ee02fef7c0fe7eea1410c63d3c2b1fbf">
+                            <figcaption>'The Top 5 Questions I Get Asked As A Child Psychologist'</figcaption>
+                        </div>
+                    </div>
+
+                    <div class="mt-3 mb-3">CULTURE & TRAVEL</div>
+
+                        <div class="row">
+                            <div class="my-turn col-md-4">
+                            <img style="width:180px;" src="https://d.newsweek.com/en/full/1627897/cul-map-women-banner.webp?w=397&h=397&l=50&t=77&f=7b0b507bd4d7cb5b471c5a1343811b39">
+                            <figcaption>'The Top 5 Questions I Get Asked As A Child Psychologist'</figcaption>
+                        </div>
+
+                        <div class="my-turn col-md-4">
+                            <img style="width:180px;" src="https://d.newsweek.com/en/full/1628308/kellee-edwards-vultee-bt-13-aircraft.webp?w=397&h=397&f=415ed1209407b816f9a935d18e22c5a9">
+                            <figcaption>'The Top 5 Questions I Get Asked As A Child Psychologist'</figcaption>
+                        </div>
+
+                        <div class="my-turn col-md-4 ">
+                            <img style="width:180px;" src="https://d.newsweek.com/en/full/1621688/delta-airlines.webp?w=397&h=397&f=12af4d7a8179355ba08f00a5d774e649">
+                            <figcaption>'The Top 5 Questions I Get Asked As A Child Psychologist'</figcaption>
+                        </div>
+                    </div>
+
+                    <div style="margin-bottom: 10px;margin-top: 20px;" >MORE STORIES</div>
+                        <div class="more-stories">
+                            <div class="row more">
+                                <div class="col d-flex flex-direction-row">
+                                    <img class="image-more" src="https://d.newsweek.com/en/full/1629924/jacob-blake-rally.webp?w=95&h=95&f=5d02a84dae6f3af031a20aa85e9d3098">
+                        <div class="more-details">
+                            <h5>'We Absolutely Don't Need' Trump to Visit Kenosha, Wisconsin Lt. Gov. Says</h5>
+                            <p>The lieutenant governor said President Donald Trump's previous "incendiary remarks" made him doubt that Trump "intends to come here to be helpful."</p>
+                        </div>
+                       </div>
+                       </div>
+                       <hr>
+                       <div class="row more">
+                        <div class="col d-flex flex-direction-row">
+                        <img class="image-more" src="https://d.newsweek.com/en/full/1629924/jacob-blake-rally.webp?w=95&h=95&f=5d02a84dae6f3af031a20aa85e9d3098">
+                        <div class="more-details">
+                            <h5>'We Absolutely Don't Need' Trump to Visit Kenosha, Wisconsin Lt. Gov. Says</h5>
+                            <p>The lieutenant governor said President Donald Trump's previous "incendiary remarks" made him doubt that Trump "intends to come here to be helpful."</p>
+                        </div>
+                       </div>
+                       </div>
+                       <hr>
+                       <div class="row more">
+                        <div class="col d-flex flex-direction-row">
+                        <img class="image-more" src="https://d.newsweek.com/en/full/1629924/jacob-blake-rally.webp?w=95&h=95&f=5d02a84dae6f3af031a20aa85e9d3098">
+                        <div class="more-details">
+                            <h5>'We Absolutely Don't Need' Trump to Visit Kenosha, Wisconsin Lt. Gov. Says</h5>
+                            <p>The lieutenant governor said President Donald Trump's previous "incendiary remarks" made him doubt that Trump "intends to come here to be helpful."</p>
+                        </div>
+                       </div>
+                       </div>
+                       <hr>
+                       <div class="row more">
+                        <div class="col d-flex flex-direction-row">
+                        <img class="image-more" src="https://d.newsweek.com/en/full/1629924/jacob-blake-rally.webp?w=95&h=95&f=5d02a84dae6f3af031a20aa85e9d3098">
+                        <div class="more-details">
+                            <h5>'We Absolutely Don't Need' Trump to Visit Kenosha, Wisconsin Lt. Gov. Says</h5>
+                            <p>The lieutenant governor said President Donald Trump's previous "incendiary remarks" made him doubt that Trump "intends to come here to be helpful."</p>
+                        </div>
+                       </div>
+                       </div>
+                       <hr>
+                        <div class="row more">
+                        <div class="col d-flex flex-direction-row">
+                        <img class="image-more" src="https://d.newsweek.com/en/full/1629924/jacob-blake-rally.webp?w=95&h=95&f=5d02a84dae6f3af031a20aa85e9d3098">
+                        <div class="more-details">
+                            <h5>'We Absolutely Don't Need' Trump to Visit Kenosha, Wisconsin Lt. Gov. Says</h5>
+                            <p>The lieutenant governor said President Donald Trump's previous "incendiary remarks" made him doubt that Trump "intends to come here to be helpful."</p>
+                        </div>
+                        </div>
+                        </div>
+                        <hr>
+                       <div class="row more">
+                        <div class="col d-flex flex-direction-row">
+                        <img class="image-more" src="https://d.newsweek.com/en/full/1629924/jacob-blake-rally.webp?w=95&h=95&f=5d02a84dae6f3af031a20aa85e9d3098">
+                        <div class="more-details">
+                            <h5>'We Absolutely Don't Need' Trump to Visit Kenosha, Wisconsin Lt. Gov. Says</h5>
+                            <p>The lieutenant governor said President Donald Trump's previous "incendiary remarks" made him doubt that Trump "intends to come here to be helpful."</p>
+                        </div>
+                        </div>
+                        </div>
+                        <hr>
+                        <div class="row more">
+                        <div class="col d-flex flex-direction-row">
+                        <img class="image-more" src="https://d.newsweek.com/en/full/1629924/jacob-blake-rally.webp?w=95&h=95&f=5d02a84dae6f3af031a20aa85e9d3098">
+                        <div class="more-details">
+                            <h5>'We Absolutely Don't Need' Trump to Visit Kenosha, Wisconsin Lt. Gov. Says</h5>
+                            <p>The lieutenant governor said President Donald Trump's previous "incendiary remarks" made him doubt that Trump "intends to come here to be helpful."</p>
+                        </div>
+                        </div>
+                        </div>
+                    
+                    </div>
+            </div>
+
+            <div class="col-md-3">
+                <p class="debate text-muted font-weight-bold pb-2">THE DEBATE</p>
+                <div class="row person-profile border-top">
+                    <div class="col  d-flex flex-direction-row ">
+                        <img class="images" src="https://d.newsweek.com/en/full/1610318/greg-mitchell.webp?w=150&h=150&f=d13dba1a1a4c45ff8a4940cb599f0d84">
+                        <p>U.S. Must End Nuclear 'First Strike' Policy<br><span>BY GREG MITCHELL</span></p>
+                    </div>
+                </div>
+                <hr class="hrule">
+                <hr class="hrule">
+                <div class="vs">VS</div>
+
+                <div class="row person-profile2 mt-2 border-bottom">
+                    <div class="col  d-flex flex-direction-row "><p>Reject 'No First Use' Nuclear Policy
+                        <br><span>BY REBECCAH HEINRICHS</span></p>
+                        <img style="height: 70px;width: 70px;" class="image2" src="https://d.newsweek.com/en/full/1600825/rebeccah-heinrichs.webp?w=150&h=150&f=d8c1713c2a5f12a25950ed17ab4098f0"></div>
+                </div>
+            
+                <div style="padding-bottom:10px; padding-top: 10px;">OPINION</div>
+
+                <div class="row person-profile">
+                <div class="col  d-flex flex-direction-row ">
+                    <img class="images" src="https://d.newsweek.com/en/full/1610318/greg-mitchell.webp?w=150&h=150&f=d13dba1a1a4c45ff8a4940cb599f0d84">
+                    <p>U.S. Must End Nuclear 'First Strike' Policy<br><span>BY GREG MITCHELL</span></p>
+                </div>
+                </div>
+                <hr>
+                <div class="row person-profile">
+                <div class="col  d-flex flex-direction-row ">
+                    <img class="images" src="https://d.newsweek.com/en/full/1610318/greg-mitchell.webp?w=150&h=150&f=d13dba1a1a4c45ff8a4940cb599f0d84">
+                    <p>U.S. Must End Nuclear 'First Strike' Policy<br><span>BY GREG MITCHELL</span></p>
+                </div>
+                </div>
+                <hr>
+                <div class="row person-profile">
+                <div class="col  d-flex flex-direction-row ">
+                    <img class="images" src="https://d.newsweek.com/en/full/1610318/greg-mitchell.webp?w=150&h=150&f=d13dba1a1a4c45ff8a4940cb599f0d84">
+                    <p>U.S. Must End Nuclear 'First Strike' Policy<br><span>BY GREG MITCHELL</span></p>
+                </div>
+                </div>
+                <hr>
+               <div class="row person-profile">
+                <div class="col  d-flex flex-direction-row ">
+                    <img class="images" src="https://d.newsweek.com/en/full/1610318/greg-mitchell.webp?w=150&h=150&f=d13dba1a1a4c45ff8a4940cb599f0d84">
+                    <p>U.S. Must End Nuclear 'First Strike' Policy<br><span>BY GREG MITCHELL</span></p>
+                </div>
+                </div>
+                <hr>
+                <div class="row person-profile">
+                <div class="col  d-flex flex-direction-row ">
+                    <img class="images" src="https://d.newsweek.com/en/full/1610318/greg-mitchell.webp?w=150&h=150&f=d13dba1a1a4c45ff8a4940cb599f0d84">
+                    <p>U.S. Must End Nuclear 'First Strike' Policy<br><span>BY GREG MITCHELL</span></p>
+                </div>  
+                </div>
+                <hr>
+                <div class="row person-profile">
+                <div class="col  d-flex flex-direction-row ">
+                    <img class="images" src="https://d.newsweek.com/en/full/1610318/greg-mitchell.webp?w=150&h=150&f=d13dba1a1a4c45ff8a4940cb599f0d84">
+                    <p>U.S. Must End Nuclear 'First Strike' Policy<br><span>BY GREG MITCHELL</span></p>
+                </div>
+                </div>
+                <hr>
+                <div class="row person-profile">
+                <div class="col  d-flex flex-direction-row ">
+                    <img class="images" src="https://d.newsweek.com/en/full/1610318/greg-mitchell.webp?w=150&h=150&f=d13dba1a1a4c45ff8a4940cb599f0d84">
+                    <p>U.S. Must End Nuclear 'First Strike' Policy<br><span>BY GREG MITCHELL</span></p>
+                </div>
+                </div>
+                <hr>
+            </div>
+            
+     
+       <!-- <div class="section1  bg-warning" >
+         <div class="col-3 col-xs-12">
+            
         <div class="headlines">
         <p>FEATURED</p>
-        <figure><img style="width: 300px;" src="https://d.newsweek.com/en/full/1629910/house-intelligence-adam-schiff-russia.webp?w=397&h=265&q=90&f=0790d35ace7e2ff90a324dec5de1b591"></figure>
+       <img style="width: 300px;" src="https://d.newsweek.com/en/full/1629910/house-intelligence-adam-schiff-russia.webp?w=397&h=265&q=90&f=0790d35ace7e2ff90a324dec5de1b591">
         <h3>Adam Schiff Says Trump Views Racial Unrest, Russian Interference as Useful</h3>
         <p>House Intelligence Committee Chairman Adam Schiff said President Donald Trump is "willfully fanning the flames" of racial unrest and violence because his campaign believes it helps his re-election chances.</p>
-    </div>
-    <div class="headlines">
+          </div>
+          <div class="headlines">
         
-        <figure><img style="width: 300px;" src="https://d.newsweek.com/en/full/1629905/breonna-taylor.webp?w=397&h=265&q=90&f=76c467011e8e80847124cb96b3f11af9"></figure>
+       <img style="width: 300px;" src="https://d.newsweek.com/en/full/1629905/breonna-taylor.webp?w=397&h=265&q=90&f=76c467011e8e80847124cb96b3f11af9">
         <h3>Adam Schiff Says Trump Views Racial Unrest, Russian Interference as Useful</h3>
         <p>House Intelligence Committee Chairman Adam Schiff said President Donald Trump is "willfully fanning the flames" of racial unrest and violence because his campaign believes it helps his re-election chances.</p>
-    </div>
-    <div class="headlines">
+        </div>
+         <div class="headlines">
         
-        <figure><img style="width: 300px;" src="https://d.newsweek.com/en/full/1629937/chadwick-boseman.webp?w=397&h=265&q=90&f=500d297cecde904d91c1670588319e0c"></figure>
+       <img style="width: 300px;" src="https://d.newsweek.com/en/full/1629937/chadwick-boseman.webp?w=397&h=265&q=90&f=500d297cecde904d91c1670588319e0c">
         <h3>Adam Schiff Says Trump Views Racial Unrest, Russian Interference as Useful</h3>
         <p>House Intelligence Committee Chairman Adam Schiff said President Donald Trump is "willfully fanning the flames" of racial unrest and violence because his campaign believes it helps his re-election chances.</p>
-    </div>
-    <div class="headlines">
+         </div>
+           <div class="headlines">
         
-        <figure><img style="width: 300px;" src="https://d.newsweek.com/en/full/1629921/john-macdonald-statue.webp?w=397&h=265&q=90&f=c8a0077f6ed0365559e46ff439c33001"></figure>
+       <img style="width: 300px;" src="https://d.newsweek.com/en/full/1629921/john-macdonald-statue.webp?w=397&h=265&q=90&f=c8a0077f6ed0365559e46ff439c33001">
         <h3>Adam Schiff Says Trump Views Racial Unrest, Russian Interference as Useful</h3>
         <p>House Intelligence Committee Chairman Adam Schiff said President Donald Trump is "willfully fanning the flames" of racial unrest and violence because his campaign believes it helps his re-election chances.</p>
-    </div>
-    <div class="headlines">
+           </div>
+          <div class="headlines">
         
-        <figure><img style="width: 300px;" src="https://d.newsweek.com/en/full/1627650/lat-living-apart-couples-living-apart.webp?w=397&h=265&q=90&f=4a10b8bb3b7ead9d7e014e7ebe39158a"></figure>
+       <img style="width: 300px;" src="https://d.newsweek.com/en/full/1627650/lat-living-apart-couples-living-apart.webp?w=397&h=265&q=90&f=4a10b8bb3b7ead9d7e014e7ebe39158a">
         <h3>Adam Schiff Says Trump Views Racial Unrest, Russian Interference as Useful</h3>
         <p>House Intelligence Committee Chairman Adam Schiff said President Donald Trump is "willfully fanning the flames" of racial unrest and violence because his campaign believes it helps his re-election chances.</p>
-    </div>
+       </div>
  
-    </div>
-    <div class="mid-col col-6">
-       <div class="main-story">
+      </div>
+      <div class="col-6">
+         <div class="main-story">
         <p>TOP STORY</p>
-        <figure><img style="width: 600px; " src="https://d.newsweek.com/en/full/1629926/portland-protests.webp?w=591&h=364&f=fb2609924e2f5f4e378ecc7af68484c7"></figure>
+       <img style="width: 600px; " src="https://d.newsweek.com/en/full/1629926/portland-protests.webp?w=591&h=364&f=fb2609924e2f5f4e378ecc7af68484c7">
         <h3>Biden Condemns Violence in Portland While Trump Blames 'Radical Left' Dems</h3>
         <p>Saturday turned deadly as a group of Donald Trump supporters clashed in the Portland streets with Black Lives Matter demonstrators.</p>
        </div>
        <div>MY TURN</div>
-       <div class="row row-cols-3">
+       <div class="row">
        <div class="my-turn col">
-           <figure><img style="width: 200px;height: 200px;" src="https://d.newsweek.com/en/full/1627697/child-psychologist-therapy-family-kids-parent.webp?w=397&h=397&f=3a3830421357835a688e99046ca9670b"></figure>
+          <img style="width: 200px;height: 200px;" src="https://d.newsweek.com/en/full/1627697/child-psychologist-therapy-family-kids-parent.webp?w=397&h=397&f=3a3830421357835a688e99046ca9670b">
            <figcaption>'The Top 5 Questions I Get Asked As A Child Psychologist'</figcaption>
        </div>
        <div class="my-turn col">
-        <figure><img style="width: 200px;height: 200px;" src="https://d.newsweek.com/en/full/1629191/homecoming-marriage-love.webp?w=397&h=397&f=e9b597d24c5723e4907c244fd49464ec"></figure>
+       <img style="width: 200px;height: 200px;" src="https://d.newsweek.com/en/full/1629191/homecoming-marriage-love.webp?w=397&h=397&f=e9b597d24c5723e4907c244fd49464ec">
         <figcaption>'The Top 5 Questions I Get Asked As A Child Psychologist'</figcaption>
-    </div>
-    <div class="my-turn col">
-        <figure><img style="width: 200px;height: 200px;" src="https://d.newsweek.com/en/full/1628165/coronavirus-palau-hotels-covid-19.webp?w=397&h=397&f=ee02fef7c0fe7eea1410c63d3c2b1fbf"></figure>
+         </div>
+          <div class="my-turn col">
+       <img style="width: 200px;height: 200px;" src="https://d.newsweek.com/en/full/1628165/coronavirus-palau-hotels-covid-19.webp?w=397&h=397&f=ee02fef7c0fe7eea1410c63d3c2b1fbf">
         <figcaption>'The Top 5 Questions I Get Asked As A Child Psychologist'</figcaption>
     </div>
     </div>
     <div style="margin-top: 20px;margin-bottom: 10px;">CULTURE & TRAVEL</div>
        <div class="row row-cols-3">
        <div class="my-turn col">
-           <figure><img style="width: 200px;height: 200px;" src="https://d.newsweek.com/en/full/1627897/cul-map-women-banner.webp?w=397&h=397&l=50&t=77&f=7b0b507bd4d7cb5b471c5a1343811b39"></figure>
+          <img style="width: 200px;height: 200px;" src="https://d.newsweek.com/en/full/1627897/cul-map-women-banner.webp?w=397&h=397&l=50&t=77&f=7b0b507bd4d7cb5b471c5a1343811b39">
            <figcaption>'The Top 5 Questions I Get Asked As A Child Psychologist'</figcaption>
        </div>
        <div class="my-turn col">
-        <figure><img style="width: 200px;height: 200px;" src="https://d.newsweek.com/en/full/1628308/kellee-edwards-vultee-bt-13-aircraft.webp?w=397&h=397&f=415ed1209407b816f9a935d18e22c5a9"></figure>
+       <img style="width: 200px;height: 200px;" src="https://d.newsweek.com/en/full/1628308/kellee-edwards-vultee-bt-13-aircraft.webp?w=397&h=397&f=415ed1209407b816f9a935d18e22c5a9">
         <figcaption>'The Top 5 Questions I Get Asked As A Child Psychologist'</figcaption>
     </div>
     <div class="my-turn col">
-        <figure><img style="width: 200px;height: 200px;" src="https://d.newsweek.com/en/full/1621688/delta-airlines.webp?w=397&h=397&f=12af4d7a8179355ba08f00a5d774e649"></figure>
+       <img style="width: 200px;height: 200px;" src="https://d.newsweek.com/en/full/1621688/delta-airlines.webp?w=397&h=397&f=12af4d7a8179355ba08f00a5d774e649">
         <figcaption>'The Top 5 Questions I Get Asked As A Child Psychologist'</figcaption>
     </div>
     </div>
     <div style="margin-bottom: 10px;margin-top: 20px;" >MORE STORIES</div>
     <div class="more-stories">
-        <div class="more">
+        <div class="row more">
+            <div class="col d-flex flex-direction-row">
             <img class="image-more" src="https://d.newsweek.com/en/full/1629924/jacob-blake-rally.webp?w=95&h=95&f=5d02a84dae6f3af031a20aa85e9d3098">
             <div class="more-details">
                 <h5>'We Absolutely Don't Need' Trump to Visit Kenosha, Wisconsin Lt. Gov. Says</h5>
                 <p>The lieutenant governor said President Donald Trump's previous "incendiary remarks" made him doubt that Trump "intends to come here to be helpful."</p>
             </div>
         </div>
+        </div>
         <hr>
-    </div>
-    </div>
-<!--<div class="last-aside col-3"> -->
-    <div class="col-12 col-lg-3 order-md-3 order-2">
-        <h3 class="block-title">THE DEBATE</h3>
-        <article class="row more-stories2 borderTop">
-            <div class="col-4"><img src="./assets/images/lyman-stone-w-bradford-wilcox.png" alt="..." class="img-fluid"></div>
-            <div class="col-8">
-                <h4 class="font-weight-bold text-dark"><a href="#">Empty Cradles Means a Bleaker Future</a></h4>
-                <span class="font-weight-bold"> BY Lyman Stone and W. Bradford Wilcox</span>
+        <div class="row more">
+            <div class="col d-flex flex-direction-row">
+            <img class="image-more" src="https://d.newsweek.com/en/full/1629924/jacob-blake-rally.webp?w=95&h=95&f=5d02a84dae6f3af031a20aa85e9d3098">
+            <div class="more-details">
+                <h5>'We Absolutely Don't Need' Trump to Visit Kenosha, Wisconsin Lt. Gov. Says</h5>
+                <p>The lieutenant governor said President Donald Trump's previous "incendiary remarks" made him doubt that Trump "intends to come here to be helpful."</p>
             </div>
-        </article>
-        <div class="d-flex justify-content-center"><div class="circleVs font-weight-bold text-light bg-dark d-flex justify-content-center align-items-center position-absolute">VS</div></div>
-
-        <article class="row more-stories2 borderBot">
-            <div class="col-8">
-                <h4 class="font-weight-bold text-dark"><a href="#">Falling Birthrates Are No Big Deal</a></h4>
-                <span class="font-weight-bold">BY MARINA ASHADE</span>
+        </div>
+        </div>
+        <hr>
+        <div class="row more">
+            <div class="col d-flex flex-direction-row">
+            <img class="image-more" src="https://d.newsweek.com/en/full/1629924/jacob-blake-rally.webp?w=95&h=95&f=5d02a84dae6f3af031a20aa85e9d3098">
+            <div class="more-details">
+                <h5>'We Absolutely Don't Need' Trump to Visit Kenosha, Wisconsin Lt. Gov. Says</h5>
+                <p>The lieutenant governor said President Donald Trump's previous "incendiary remarks" made him doubt that Trump "intends to come here to be helpful."</p>
             </div>
-            <div class="col-4"><img src="./assets/images/marina-adshade.png" alt="..." class="img-fluid"></div>
-        </article>
-        <h3 class="block-title">OPINION</h3>
-        <article class="row more-stories2">
-            <div class="col-4"><img src="./assets/images/dk-smith.png" alt="..." class="img-fluid"></div>
-            <div class="col-8">
-                <h4 class="font-weight-bold text-dark"><a href="#">Forget Police Reform. We Must Fully Reimagine the Force </a></h4>
-                <span class="font-weight-bold carticlesHeader">BY DENARIO DAVIS</span>
+        </div>
+        </div>
+        <hr>
+        <div class="row more">
+            <div class="col d-flex flex-direction-row">
+            <img class="image-more" src="https://d.newsweek.com/en/full/1629924/jacob-blake-rally.webp?w=95&h=95&f=5d02a84dae6f3af031a20aa85e9d3098">
+            <div class="more-details">
+                <h5>'We Absolutely Don't Need' Trump to Visit Kenosha, Wisconsin Lt. Gov. Says</h5>
+                <p>The lieutenant governor said President Donald Trump's previous "incendiary remarks" made him doubt that Trump "intends to come here to be helpful."</p>
             </div>
-        </article>
-        <article class="row more-stories2">
-            <div class="col-4"><img src="./assets/images/jennifer-taub.png" alt="..." class="img-fluid"></div>
-            <div class="col-8">
-                <h4 class="font-weight-bold text-dark"><a href="#">The Conservative Argument for Coronavirus Masks</a></h4>
-                <span class="font-weight-bold carticlesHeader">BY JENNIFET TAUBS</span>
+        </div>
+        </div>
+        <hr>
+        <div class="row more">
+            <div class="col d-flex flex-direction-row">
+            <img class="image-more" src="https://d.newsweek.com/en/full/1629924/jacob-blake-rally.webp?w=95&h=95&f=5d02a84dae6f3af031a20aa85e9d3098">
+            <div class="more-details">
+                <h5>'We Absolutely Don't Need' Trump to Visit Kenosha, Wisconsin Lt. Gov. Says</h5>
+                <p>The lieutenant governor said President Donald Trump's previous "incendiary remarks" made him doubt that Trump "intends to come here to be helpful."</p>
             </div>
-        </article>
-        <article class="row more-stories2">
-            <div class="col-4"><img src="./assets/images/jason-rantz.png" alt="..." class="img-fluid"></div>
-            <div class="col-8">
-                <h4 class="font-weight-bold text-dark"><a href="#">Are These Supreme Court Justices Traitors to the Conservative Cause?</a></h4>
-                <span class="font-weight-bold carticlesHeader">BY JASON RATS</span>
+        </div>
+        </div>
+        <hr>
+        <div class="row more">
+            <div class="col d-flex flex-direction-row">
+            <img class="image-more" src="https://d.newsweek.com/en/full/1629924/jacob-blake-rally.webp?w=95&h=95&f=5d02a84dae6f3af031a20aa85e9d3098">
+            <div class="more-details">
+                <h5>'We Absolutely Don't Need' Trump to Visit Kenosha, Wisconsin Lt. Gov. Says</h5>
+                <p>The lieutenant governor said President Donald Trump's previous "incendiary remarks" made him doubt that Trump "intends to come here to be helpful."</p>
             </div>
-        </article>
-        <article class="row more-stories2">
-            <div class="col-4"><img src="./assets/images/joseph-uscinski.png" alt="..." class="img-fluid"></div>
-            <div class="col-8">
-                <h4 class="font-weight-bold text-dark"><a href="#">Trump's Re-Election Playbook in 25 Steps</a></h4>
-                <span class="font-weight-bold carticlesHeader">BY BRANDFORD WILCOX</span>
+        </div>
+        </div>
+        <hr>
+        <div class="row more">
+            <div class="col d-flex flex-direction-row">
+            <img class="image-more" src="https://d.newsweek.com/en/full/1629924/jacob-blake-rally.webp?w=95&h=95&f=5d02a84dae6f3af031a20aa85e9d3098">
+            <div class="more-details">
+                <h5>'We Absolutely Don't Need' Trump to Visit Kenosha, Wisconsin Lt. Gov. Says</h5>
+                <p>The lieutenant governor said President Donald Trump's previous "incendiary remarks" made him doubt that Trump "intends to come here to be helpful."</p>
             </div>
-        </article>
-        <article class="row more-stories2">
-            <div class="col-4"><img src="./assets/images/jennifer-taub.png" alt="..." class="img-fluid"></div>
-            <div class="col-8">
-                <h4 class="font-weight-bold text-dark"><a href="#">The Propaganda Media's Polling Offensive</a></h4>
-                <span class="font-weight-bold carticlesHeader">BY JENNIFET TAUBS</span>
-            </div>
-        </article>
-        <article class="row more-stories2">
-            <div class="col-4"><img src="./assets/images/joseph-uscinski.png" alt="..." class="img-fluid"></div>
-            <div class="col-8">
-                <h4 class="font-weight-bold text-dark"><a href="#">Trump's Re-Election Playbook in 25 Steps</a></h4>
-                <span class="font-weight-bold carticlesHeader">BY JOSEPH USCINSKI</span>
-            </div>
-        </article>
-        <form>
-           <div class="form-div">
-            <div class="form-group">
-                <header class="border-bottom d-flex align-items-center justify-content-center pb-3 mt-4">
-                    <span class="logo mr-2 signup-image"></span>
-                    <h1 class="font-weight-bold m-0">START YOUR DAY WITH OUR TOP 5 ARTICLES</h1>
-                </header>
-          
-              <input type="email" class="form-control" placeholder="Email address">
-              
-            </div>
-            <button type="submit" class="btn btn-danger btn-lg btn-block mb-4">FREE SIGN UP</button>
-           </div>
-          </form>
-        <article class="card">
-            <div class="card-image-position">
-                <img src="./assets/images/infection-prevention-products-banner.jpg" class="card-img-top" alt="...">
-                <div class="tag text-primary">RANKINGS</div>
-            </div>
-            <div class="card-body feature">
-                <h5 class="card-title"><a href="#">WHO Director Warns COVID-19 Pandemic is 'Speeding Up,' Here for 'Long Haul'</a></h5>
-                <p class="card-text">"The hard reality is, this is not even close to being over," said WHO Director-General Tedros Adhanom Ghebreyesus on Monday.</p>
-            </div>
-        </article>
-        <article class="card">
-            <div class="card-image-position">
-                <img src="./assets/images/worlds-best-specialized-hospitals-2021.png" class="card-img-top" alt="...">
-            </div>
-            <div class="card-body feature">
-                <h5 class="card-title"><a href="#">WHO Director Warns COVID-19 Pandemic is 'Speeding Up,' Here for 'Long Haul'</a></h5>
-                <p class="card-text">"The hard reality is, this is not even close to being over," said WHO Director-General Tedros Adhanom Ghebreyesus on Monday.</p>
-            </div>
-        </article>
-        <article class="card">
-            <div class="card-image-position">
-                <img src="./assets/images/addiction-treatment-centers-2020.jpg" class="card-img-top" alt="...">
-                <div class="tag text-primary">SURVEY</div>
-            </div>
-            <div class="card-body feature">
-                <h5 class="card-title"><a href="#">WHO Director Warns COVID-19 Pandemic is 'Speeding Up,' Here for 'Long Haul'</a></h5>
-                <p class="card-text">"The hard reality is, this is not even close to being over," said WHO Director-General Tedros Adhanom Ghebreyesus on Monday.</p>
-                
-            </div>
-        </article>
-    </div>
-       <!-- <p>THE DEBATE</p>
-        
-        <div class="row person-profile borderTop">
-            <img class="images" src="https://d.newsweek.com/en/full/1610318/greg-mitchell.webp?w=150&h=150&f=d13dba1a1a4c45ff8a4940cb599f0d84">
-            <p>U.S. Must End Nuclear 'First Strike' Policy<br><span>BY GREG MITCHELL</span></p>
-            
+        </div>
         </div>
         
-       
-        <div class="person-profile2">
-            <p>Reject 'No First Use' Nuclear Policy
-            <br><span>BY REBECCAH HEINRICHS</span></p>
-            <img class="image2" src="https://d.newsweek.com/en/full/1600825/rebeccah-heinrichs.webp?w=150&h=150&f=d8c1713c2a5f12a25950ed17ab4098f0">
+          </div>
+          </div>
+         <div class="last-aside col-3">
+        <p class="debate">THE DEBATE</p>
+        <div class="row person-profile">
+            <div class="col  d-flex flex-direction-row ">
+                <img class="images" src="https://d.newsweek.com/en/full/1610318/greg-mitchell.webp?w=150&h=150&f=d13dba1a1a4c45ff8a4940cb599f0d84">
+                <p>U.S. Must End Nuclear 'First Strike' Policy<br><span>BY GREG MITCHELL</span></p>
+            </div>
+        </div>
+        <hr>
+        <div class="row person-profile2">
+            <div class="col  d-flex flex-direction-row "><p>Reject 'No First Use' Nuclear Policy
+                <br><span>BY REBECCAH HEINRICHS</span></p>
+                <img class="image2" src="https://d.newsweek.com/en/full/1600825/rebeccah-heinrichs.webp?w=150&h=150&f=d8c1713c2a5f12a25950ed17ab4098f0"></div>
+    </div>
+    
+    <div style="padding-bottom:10px; padding-top: 10px;">OPINION</div>
+    <div class="row person-profile">
+        <div class="col  d-flex flex-direction-row ">
+            <img class="images" src="https://d.newsweek.com/en/full/1610318/greg-mitchell.webp?w=150&h=150&f=d13dba1a1a4c45ff8a4940cb599f0d84">
+            <p>U.S. Must End Nuclear 'First Strike' Policy<br><span>BY GREG MITCHELL</span></p>
+        </div>
     </div>
     <hr>
-    <div style="padding-bottom:10px;">OPINION</div>
-    <div class="person-profile">
-        <img class="images" src="https://d.newsweek.com/en/full/1610318/greg-mitchell.webp?w=150&h=150&f=d13dba1a1a4c45ff8a4940cb599f0d84">
-        <p>U.S. Must End Nuclear 'First Strike' Policy<br><span>BY GREG MITCHELL</span></p>
-        
+    <div class="row person-profile">
+        <div class="col  d-flex flex-direction-row ">
+            <img class="images" src="https://d.newsweek.com/en/full/1610318/greg-mitchell.webp?w=150&h=150&f=d13dba1a1a4c45ff8a4940cb599f0d84">
+            <p>U.S. Must End Nuclear 'First Strike' Policy<br><span>BY GREG MITCHELL</span></p>
+        </div>
     </div>
     <hr>
-    <div class="person-profile">
-        <img class="images" src="https://d.newsweek.com/en/full/1610318/greg-mitchell.webp?w=150&h=150&f=d13dba1a1a4c45ff8a4940cb599f0d84">
-        <p>U.S. Must End Nuclear 'First Strike' Policy<br><span>BY GREG MITCHELL</span></p>
-        
+    <div class="row person-profile">
+        <div class="col  d-flex flex-direction-row ">
+            <img class="images" src="https://d.newsweek.com/en/full/1610318/greg-mitchell.webp?w=150&h=150&f=d13dba1a1a4c45ff8a4940cb599f0d84">
+            <p>U.S. Must End Nuclear 'First Strike' Policy<br><span>BY GREG MITCHELL</span></p>
+        </div>
     </div>
     <hr>
-    <div class="person-profile">
-        <img class="images" src="https://d.newsweek.com/en/full/1610318/greg-mitchell.webp?w=150&h=150&f=d13dba1a1a4c45ff8a4940cb599f0d84">
-        <p>U.S. Must End Nuclear 'First Strike' Policy<br><span>BY GREG MITCHELL</span></p>
-        
+    <div class="row person-profile">
+        <div class="col  d-flex flex-direction-row ">
+            <img class="images" src="https://d.newsweek.com/en/full/1610318/greg-mitchell.webp?w=150&h=150&f=d13dba1a1a4c45ff8a4940cb599f0d84">
+            <p>U.S. Must End Nuclear 'First Strike' Policy<br><span>BY GREG MITCHELL</span></p>
+        </div>
     </div>
     <hr>
-    <div class="person-profile">
-        <img class="images" src="https://d.newsweek.com/en/full/1610318/greg-mitchell.webp?w=150&h=150&f=d13dba1a1a4c45ff8a4940cb599f0d84">
-        <p>U.S. Must End Nuclear 'First Strike' Policy<br><span>BY GREG MITCHELL</span></p>
-        
+    <div class="row person-profile">
+        <div class="col  d-flex flex-direction-row ">
+            <img class="images" src="https://d.newsweek.com/en/full/1610318/greg-mitchell.webp?w=150&h=150&f=d13dba1a1a4c45ff8a4940cb599f0d84">
+            <p>U.S. Must End Nuclear 'First Strike' Policy<br><span>BY GREG MITCHELL</span></p>
+        </div>  
     </div>
     <hr>
-    <div class="person-profile">
-        <img class="images" src="https://d.newsweek.com/en/full/1610318/greg-mitchell.webp?w=150&h=150&f=d13dba1a1a4c45ff8a4940cb599f0d84">
-        <p>U.S. Must End Nuclear 'First Strike' Policy<br><span>BY GREG MITCHELL</span></p>
-        
+    <div class="row person-profile">
+        <div class="col  d-flex flex-direction-row ">
+            <img class="images" src="https://d.newsweek.com/en/full/1610318/greg-mitchell.webp?w=150&h=150&f=d13dba1a1a4c45ff8a4940cb599f0d84">
+            <p>U.S. Must End Nuclear 'First Strike' Policy<br><span>BY GREG MITCHELL</span></p>
+        </div>
     </div>
     <hr>
-    <div class="person-profile">
-        <img class="images" src="https://d.newsweek.com/en/full/1610318/greg-mitchell.webp?w=150&h=150&f=d13dba1a1a4c45ff8a4940cb599f0d84">
-        <p>U.S. Must End Nuclear 'First Strike' Policy<br><span>BY GREG MITCHELL</span></p>
-        
+    <div class="row person-profile">
+        <div class="col  d-flex flex-direction-row ">
+            <img class="images" src="https://d.newsweek.com/en/full/1610318/greg-mitchell.webp?w=150&h=150&f=d13dba1a1a4c45ff8a4940cb599f0d84">
+            <p>U.S. Must End Nuclear 'First Strike' Policy<br><span>BY GREG MITCHELL</span></p>
+        </div>
     </div>
     <hr>
-    <div class="person-profile">
-        <img class="images" src="https://d.newsweek.com/en/full/1610318/greg-mitchell.webp?w=150&h=150&f=d13dba1a1a4c45ff8a4940cb599f0d84">
-        <p>U.S. Must End Nuclear 'First Strike' Policy<br><span>BY GREG MITCHELL</span></p>
-        
+</div>-->
+
+
+<!--IN THE MAGAZINE-->
+            <div class="container-fluid bg-white pt-3">
+
+                <div class="text-center "><img src="./image/N.PNG">IN THE MAGAZINE</div>
+                <hr>
+                <div class="row mt-3">
+                    <div class="col-12 col-md-3 col-lg-3 col-xl-3">
+                        <article class="card">
+                            <h2 class="d-none">&nbsp;&nbsp;</h2>
+                            <div class="card-image-position">
+                                <img src="https://d.newsweek.com/en/full/1628669/cover-september-04-2020.webp?w=290&h=387&q=90&f=8c18ff1f1e49d0790f0e8fb00f0f1a03" class="card-img-top" alt="..." />
+                                <div class="tag bg-whitewash">SEPTEMBER 04 ISSUES</div>
+                            </div>
+                           
+                            <div class="card-body feature magazine-style">
+                                <a style="link-style-type:none;" href="#">See All Features &gt;</a>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-12 col-md-3 col-lg-3 col-xl-3">
+                        <article class="card mt-4">
+                            <div class="card-image-position">
+                                <img src="https://d.newsweek.com/en/full/1626907/fe-undecided-banner.webp?w=466&h=311&l=49&t=56&q=90&f=167f0a654a446a79abde838792f17e25" class="card-img-top" alt="..." />
+                            </div>
+                            <div class="label flex-h">
+                                <span class="label-1">
+                                    COVER
+                                </span>
+    
+                                <span class="label-2">
+                                    <a href="#">U.S</a>
+                                </span>
+                            </div>
+                            <div class="card-body feature">
+                                <h5 class="card-title"><a href="#">Police Reform Alone Won't Stop Another George Floyd from Being Murdered</a></h5>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-12 col-md-3 col-lg-3 col-xl-3">
+                        <article class="card mt-4">
+                            <div class="card-image-position">
+                                <img src="https://d.newsweek.com/en/full/1626861/fe-flippers-banner.webp?w=466&h=311&l=37&t=52&q=90&f=9ba8a60307fd1da86f65f7fb57512821" class="card-img-top" alt="..." />
+                            </div>
+                            <div class="label flex-h">
+                                <span class="label-1">
+                                    FEATURES
+                                </span>
+    
+                                <span class="label-2">
+                                    <a href="#">OPINION</a>
+                                </span>
+                            </div>
+                            <div class="card-body feature">
+                                <h5 class="card-title"><a href="#">Check-the-Box Training Won't Work. Communities Of Color Must Drive Policing</a></h5>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-12 col-md-3 col-lg-3 col-xl-3">
+                        <article class="card mt-4">
+                            <div class="card-image-position">
+                                <img src="https://d.newsweek.com/en/full/1626178/joe-biden-dnc-mask-2020-democratic-nominee.webp?w=466&h=311&q=90&f=051d93ad29ffac57aed4e6fad2a60f3d" class="card-img-top" alt="..." />
+                            </div>
+                            <div class="label flex-h">
+                                <span class="label-1">
+                                    FEATURES
+                                </span>
+    
+                                <span class="label-2">
+                                    <a href="#">OPINION</a>
+                                </span>
+                            </div>
+                            <div class="card-body feature">
+                                <h5 class="card-title"><a href="#">Check-the-Box Training Won't Work. Communities Of Color Must Drive Policing</a></h5>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-md-3 col-lg-3 col-xl-3">
+                        <article class="card mt-4">
+                            <div class="card-image-position">
+                                <img src="https://d.newsweek.com/en/full/1625648/hydroxychloroquine.webp?w=466&h=311&q=90&f=e662e76551b7f5de2181210bd4d00ad3" class="card-img-top" alt="..." />
+                            </div>
+                            <div class="label flex-h">
+                                <span class="label-1">
+                                    PERISCOPE
+                                </span>
+    
+                                <span class="label-2">
+                                    <a href="#">CUTURE</a>
+                                </span>
+                            </div>
+                            <div class="card-body feature">
+                                <h5 class="card-title"><a href="#">Governors Can't Pick and Choose Constitutional Rights</a></h5>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-12 col-md-3 col-lg-3 col-xl-3">
+                        <article class="card mt-4">
+                            <div class="card-image-position">
+                                <img src="https://d.newsweek.com/en/full/1627897/cul-map-women-banner.webp?w=466&h=311&l=50&t=77&q=90&f=48912d01c4c9c1ff33656d860dfda75b" class="card-img-top" alt="..." />
+                            </div>
+                            <div class="label flex-h">
+                                <span class="label-1">
+                                    DOWNTIME
+                                </span>
+    
+                                <span class="label-2">
+                                    <a href="#">CULTURE</a>
+                                </span>
+                            </div>
+                            <div class="card-body feature">
+                                <h5 class="card-title"><a href="#">Khruangbin's New Album Mordechai</a></h5>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-12 col-md-3 col-lg-3 col-xl-3">
+                    <article class="card mt-4">
+                        <div class="card-image-position">
+                            <img src="https://d.newsweek.com/en/full/1618623/mrbeast-profile.webp?w=466&h=311&l=50&t=50&q=90&f=55218dd9ae1781617f98d9c0ae7c34ff" class="card-img-top" alt="..." />
+                        </div>
+                        <div class="label flex-h">
+                            <span class="label-1 color-white bg-danger">
+                                DOWNTIME
+                            </span>
+
+                            <span class="label-2">
+                                <a href="#">CULTURE</a>
+                            </span>
+                        </div>
+                        <div class="card-body feature">
+                            <h5 class="card-title"><a href="#">Matty Healy On The 1975's New Album 'Notes On A Conditional Form'</a></h5>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-12 col-md-3 col-lg-3 col-xl-3">
+                    <article class="card mt-4">
+                        <div class="card-image-position">
+                            <img src="https://d.newsweek.com/en/full/1626861/fe-flippers-banner.webp?w=466&h=311&l=37&t=52&q=90&f=9ba8a60307fd1da86f65f7fb57512821" class="card-img-top" alt="..." />
+                        </div>
+                        <div class="label flex-h">
+                            <span class="label-1">
+                                IN FOCUS
+                            </span>
+                        </div>
+                        <div class="card-body feature">
+                            <h5 class="card-title"><a href="#">FREEDOM</a></h5>
+                        </div>
+                    </article>
+                </div>
+               
+                    <div class="row mt-3">
+                        <div class="col-12 col-md-3 col-lg-3 col-xl-3">
+                            <article class="card">
+                                <div class="card-image-position">
+                                    <img src="./assets/images/editor1.jpg" class="card-img-top" alt="..." />
+                                </div>
+                                <div class="card-body feature">
+                                    <h5 class="card-title"><a href="#">Texas Coronavirus Outbreak Takes 'Dangerous Turn,' 5,000 New Cases Each Day</a></h5>
+                                    <p class="card-text">Daily hospitalizations in the state also climbed past 5,000 for three consecutive days from June 26 to 28.</p>
+                                </div>
+                            </article>
+                        </div>
+                        <div class="col-12 col-md-3 col-lg-3 col-xl-3">
+                            <article class="card">
+                                <div class="card-image-position">
+                                    <img src="./assets/images/editor2.jpg" class="card-img-top" alt="..." />
+                                </div>
+                                <div class="card-body feature">
+                                    <h5 class="card-title"><a href="#">Dazzling Double Rainbow Appears Over NYC on Pride Parade 50th Anniversary</a></h5>
+                                    <p class="card-text">New Yorkers documented the heartwarming scene on social media.</p>
+                                </div>
+                            </article>
+                        </div>    
+
+                  
+            </div>
     </div>
-    <hr>-->
-</div>
+    </main>
 </body>
 </html>
