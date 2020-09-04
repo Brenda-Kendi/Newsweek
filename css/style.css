@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    border-radius: 0 !important;
 }
 body{
    background-color: whitesmoke;
@@ -106,8 +107,71 @@ header{
     }
 }
 .card{
-    border: none;
+   border: none;
 }
 .card .card-body a{
     color: black;
+}
+.red{
+    background-color: red;
+    color: white;
+}
+.label {
+  margin: 10px 0;
+  font-weight: bold;
+}
+
+.flex-h {
+  display: flex;
+}
+
+.label-1 {
+  background-color: #f72210;
+  color: #fff;
+  padding: 5px 10px;
+}
+
+.label-2 {
+  margin-left: 10px;
+  padding-top: 6px;
+}
+
+.magazine-style {
+  text-align: center;
+  background-color: #f4f5f6;
+}
+
+.magazine-style:hover {
+  background-color: #dbdcdd;
+}
+.label-2 a{
+  color: red;
+}
+.card-title a:hover{
+  text-decoration: underline red;
+}
+.lorem a{
+  color: black;
+}
+
+.media a{
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+}
+.media a:hover{
+  text-decoration: underline red;
+}
+footer a {
+  color: #6c757d;
+}
+
+.email{
+  border-radius: 2px;
+  padding: 3px;
+  border: 1px solid lightgray;
+}
+.sub{
+  font-size: 1.3rem;
 }
